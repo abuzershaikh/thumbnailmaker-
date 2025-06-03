@@ -1,0 +1,54 @@
+name: thumbnailmaker
+description: "A new Flutter project."
+
+# Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Updated to latest version
+  file_picker: ^10.1.9
+
+  # Updated to latest version
+  screenshot: ^3.0.0
+
+  # Image processing
+  image: ^4.2.0
+
+  # If you want to use Google Fonts, uncomment this:
+  # google_fonts: ^6.0.0
+
+  # Uncomment this if you plan to use SVG assets
+  # flutter_svg: ^2.0.9
+
+  # Uncomment for loading images from internet with cache
+  # cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Updated to latest version
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add your image assets here if needed
+  # assets:
+  #   - assets/images/
+
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
